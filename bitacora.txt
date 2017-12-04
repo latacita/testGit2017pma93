@@ -7,3 +7,7 @@
  Paso   Acción                       Notas
 ====== ============================ ================================
 (25)                                Fusión: Fast-forward
+(27)   git tag -a Paso26 -m 
+        'RespuestaPreguntaFusion'
+(28)   push -u origin master + 
+        push origin Paso26
