@@ -1,13 +1,23 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre):   Martínez Arana Pablo               %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(03)   branch Historia000
+(04)   branch Historia001
+(05)   checkout Historia000
+(07)   add bitacora.txt
+(08)   commit -m "Paso 08"
+(09)   checkout Historia001
+(11)   stash + checkout Historia000
+(17)   stash apply stash@{0}
+(20)   merge Historia000 + add + commit Fusión: Recursiva
 (25)                                Fusión: Fast-forward
 (27)   git tag -a Paso26 -m 
         'RespuestaPreguntaFusion'
 (28)   push -u origin master + 
         push origin Paso26
+(30)    add bitacora.txt + commit -m "Paso 30" Fusión: Recursiva
